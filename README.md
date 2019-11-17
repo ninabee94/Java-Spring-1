@@ -4,6 +4,15 @@ Simple Java Spring Application for novice
 
 To display simple messagge
 
+     File created:
+     
+     studentClass.java (store variables, provide setter & getter)
+     
+     applicationContext.xml (configure bean for studentClass)
+     
+     displayClass.java (display configured bean)   
+     
+
 ---------------------------
 3. Create New Java Project
 ---------------------------
@@ -34,5 +43,22 @@ To display simple messagge
           
      Apply -> Apply and close
      
+----------------------------
+3. Create studentClass.java (package: studentPackage.java)
+----------------------------
+     
+     put inside studentClass method :
+     
+     private String name;  
+	  
+	public String getName(){ return name; } 
+	  
+	public void setName(String name) {  
+	    this.name = name;  
+	}  
+	  
+	public void displayInfo(){  
+	    System.out.println("Hello "+name);  
+	}  
      
 
