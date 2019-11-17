@@ -47,7 +47,7 @@ To display simple messagge
 3. Create studentClass.java (package: studentPackage.java)
 ----------------------------------------------------------
      
-     put inside studentClass method :
+     //put inside studentClass method :
      
         private String name;  
 	  
@@ -61,7 +61,7 @@ To display simple messagge
 4. Create applicationContext.xml inside src folder
 --------------------------------------------------
 
-     paste in new line :
+     //paste in new line :
         
 	<beans  
 	
@@ -87,7 +87,7 @@ To display simple messagge
 6. Create displayClass.java (package: displayPackage.java
 ----------------------------------------------------------
 
-     import these :
+     //import these :
      
      import org.springframework.beans.factory.BeanFactory;  
      
@@ -101,7 +101,7 @@ To display simple messagge
      
 
 
-     add these inside public static void main
+     //add these inside public static void main
      
      Resource resource=new ClassPathResource("applicationContext.xml");  
      
@@ -110,4 +110,8 @@ To display simple messagge
      studentClass student=(studentClass)factory.getBean("studentbean"); 
      
      student.displayInfo(); 
+     
+------------------
+7. Run the Project
+------------------
 
