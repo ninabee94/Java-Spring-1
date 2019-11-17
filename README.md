@@ -49,7 +49,7 @@ To display simple messagge
      
      //put inside studentClass method :
      
-        private String name;  
+   private String name;  
 	  
 	public String getName(){ return name; } 
 	  
@@ -84,7 +84,7 @@ To display simple messagge
        </beans>  
      
 ----------------------------------------------------------
-5. Create displayClass.java (package: displayPackage.java
+5. Create displayClass.java (package: displayPackage.java)
 ----------------------------------------------------------
 
      //import these :
@@ -114,4 +114,6 @@ To display simple messagge
 ------------------
 6. Run the Project
 ------------------
+
+     Sample output : Hello John Wick
 
