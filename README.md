@@ -43,22 +43,44 @@ To display simple messagge
           
      Apply -> Apply and close
      
-----------------------------
+----------------------------------------------------------
 3. Create studentClass.java (package: studentPackage.java)
-----------------------------
+----------------------------------------------------------
      
      put inside studentClass method :
      
-     private String name;  
+        private String name;  
 	  
 	public String getName(){ return name; } 
 	  
-	public void setName(String name) {  
-	    this.name = name;  
-	}  
+	public void setName(String name) { this.name = name; }  
 	  
-	public void displayInfo(){  
-	    System.out.println("Hello "+name);  
-	}  
+	public void displayInfo(){ System.out.println("Hello "+name); }  
+	
+--------------------------------------------------
+4. Create applicationContext.xml inside src folder
+--------------------------------------------------
+
+     paste in new line :
+        
+	<beans  
+	
+            xmlns="http://www.springframework.org/schema/beans"  
+	    
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+	    
+            xmlns:p="http://www.springframework.org/schema/p"  
+	    
+            xsi:schemaLocation="http://www.springframework.org/schema/beans  
+	    
+                                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+           <bean id="studentbean" class="studentPackage.studentClass">  
+	   
+                <property name="name" value="John Wick"></property>  
+		
+           </bean>  
+  
+       </beans>  
      
 
