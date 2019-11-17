@@ -14,7 +14,7 @@ To display simple messagge
      
 
 ---------------------------
-3. Create New Java Project
+1. Create New Java Project
 ---------------------------
 
      File -> New -> Java Project ->
@@ -63,7 +63,7 @@ To display simple messagge
 
      //paste in new line :
         
-	<beans  
+     <beans  
 	
             xmlns="http://www.springframework.org/schema/beans"  
 	    
@@ -84,7 +84,7 @@ To display simple messagge
        </beans>  
      
 ----------------------------------------------------------
-6. Create displayClass.java (package: displayPackage.java
+5. Create displayClass.java (package: displayPackage.java
 ----------------------------------------------------------
 
      //import these :
@@ -112,6 +112,6 @@ To display simple messagge
      student.displayInfo(); 
      
 ------------------
-7. Run the Project
+6. Run the Project
 ------------------
 
