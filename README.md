@@ -49,7 +49,7 @@ To display simple messagge
      
      //put inside studentClass method :
      
-   private String name;  
+             private String name;  
 	  
 	public String getName(){ return name; } 
 	  
