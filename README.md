@@ -4,11 +4,11 @@ Simple Spring application to display a messagge
 
 ![alt text](https://user-images.githubusercontent.com/57636419/69020330-17d6ac80-09ef-11ea-8b38-2b971bbfedc7.JPG)
 
-File created:
+     File created:
      
-studentClass.java (store variables, provide setter & getter)<br>     
-applicationContext.xml (configure bean for studentClass)<br>    
-displayClass.java (display configured bean)   
+     studentClass.java (store variables, provide setter & getter)<br>     
+     applicationContext.xml (configure bean for studentClass)<br>    
+     displayClass.java (display configured bean)   
      
 <b>1. Create New Java Project</b>
 
@@ -73,4 +73,6 @@ displayClass.java (display configured bean)
      BeanFactory factory=new XmlBeanFactory(resource);  	      
      studentClass student=(studentClass)factory.getBean("studentbean");      
      student.displayInfo(); 
+     
+<b>6. Run the application</b>
 
