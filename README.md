@@ -1,33 +1,25 @@
 # Java-Spring-1
 
-Simple Java Spring Application for novice
+Simple Spring application to display a messagge
 
-To display simple messagge
+![alt text](https://user-images.githubusercontent.com/57636419/69020330-17d6ac80-09ef-11ea-8b38-2b971bbfedc7.JPG)
 
      File created:
      
-     studentClass.java (store variables, provide setter & getter)
-     
-     applicationContext.xml (configure bean for studentClass)
-     
+     studentClass.java (store variables, provide setter & getter)<br>     
+     applicationContext.xml (configure bean for studentClass)<br>    
      displayClass.java (display configured bean)   
      
-
----------------------------
-1. Create New Java Project
----------------------------
+<b>1. Create New Java Project</b>
 
      File -> New -> Java Project ->
      
-     project name: Java-Spring-1
-     
+     project name: Java-Spring-1<br>     
      execution environment: Java SE 1.8
      
      -> Finish
 
-------------------------
-2. Add Spring JAR Files
-------------------------
+<b>2. Add Spring JAR Files</b>
 
      Download from file:///C:/Users/User/Downloads/spcorejars.zip -> Extract files ->
      
@@ -35,26 +27,19 @@ To display simple messagge
      
      Add external JAR :
      
-          org.springframework.core-3.0.1.RELEASE-A
-          
-          com.springsource.org.apache.commons.logging-1.1.1
-          
+          org.springframework.core-3.0.1.RELEASE-A<br>          
+          com.springsource.org.apache.commons.logging-1.1.1<br>       
           org.springframework.beans-3.0.1.RELEASE-A
           
      Apply -> Apply and close
      
-----------------------------------------------------------
-3. Create studentClass.java (package: studentPackage.java)
-----------------------------------------------------------
+<b>3. Create studentClass.java (package: studentPackage.java)</b>
      
      //put inside studentClass method :
      
-        private String name;  
-	  
-	public String getName(){ return name; } 
-	  
-	public void setName(String name) { this.name = name; }  
-	  
+        private String name;  	  
+	public String getName(){ return name; } 	  
+	public void setName(String name) { this.name = name; }  	  
 	public void displayInfo(){ System.out.println("Hello "+name); }  
 	
 --------------------------------------------------
