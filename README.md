@@ -1,7 +1,5 @@
 # Java-Spring-1
 
-Simple Spring application to display a messagge
-
 ![alt text](https://user-images.githubusercontent.com/57636419/69020330-17d6ac80-09ef-11ea-8b38-2b971bbfedc7.JPG)
 
      File created:
