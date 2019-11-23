@@ -21,7 +21,7 @@ Simple Spring application to display a messagge
 
 <b>2. Add Spring JAR Files</b>
 
-     Download from file:///C:/Users/User/Downloads/spcorejars.zip -> Extract files ->
+     Download from https://static.javatpoint.com/src/sp/spcorejars.zip -> Extract files ->
      
      (Right click project) -> Build Path -> Configure Build Path -> (Libraries tab) ->
      
